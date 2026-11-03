@@ -4,6 +4,11 @@ on:
   schedule:
     - cron: '0 2 * * *'
   workflow_dispatch:
+    inputs:
+      test_notice:
+        description: 'Only send a test notice (checks that the emails arrive)'
+        type: boolean
+        default: false
 permissions:
   contents: write
   issues: write
@@ -21,7 +26,7 @@ jobs:
           python-version: '3.12'
       - name: Check QUL for changes
         working-directory: sync
-        run: python check.py
+        run: python check.py ${{ inputs.test_notice && '--test-notice' || '' }}
         env:
           QUL_TOKEN: ${{ secrets.QUL_TOKEN }}
           DATA_TOKEN: ${{ secrets.DATA_TOKEN }}

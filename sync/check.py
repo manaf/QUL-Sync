@@ -207,7 +207,19 @@ def check_pending(gh, state):
             del state['pending_new'][rid]
 
 
+def test_notice():
+    """Run workflow → "Send a test notice": confirms the emails arrive."""
+    bot = GitHub(env('GITHUB_TOKEN'))
+    repo = os.environ.get('GITHUB_REPOSITORY', f'{OWNER}/QUL-Sync').split('/')[1]
+    issue = bot.issue(repo, 'Test notice from QUL-Sync',
+                      f'@{CONFIG["notify"]} This is a test. If this reached your inbox, update notices from the daily '
+                      f'QUL check will too. You can close this issue.')
+    print('Opened', issue['html_url'])
+
+
 def main():
+    if '--test-notice' in sys.argv:
+        return test_notice()
     dry = CONFIG['dry_run'] or '--dry-run' in sys.argv
     local = '--local' in sys.argv
     state = load('state.json', {}) or {}
