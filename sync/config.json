@@ -1,0 +1,57 @@
+{
+  "owner": "manaf",
+  "dry_run": true,
+  "notify": "manaf",
+  "repos": {
+    "featured": "Tahfeez-Quran-Tafseer",
+    "arabic": "Tafseer-Arabic-Other",
+    "additional": "Tafseer-Additional",
+    "tafseer_index": "Tafseer-Index",
+    "recitations": "Recitations",
+    "recitation_index": "Recitation-Index"
+  },
+  "excluded_tafseer_ids": [
+    41
+  ],
+  "reciters": {
+    "118": {
+      "slug": "alafasy",
+      "format": "ayah"
+    },
+    "112": {
+      "slug": "husary",
+      "format": "ayah"
+    },
+    "108": {
+      "slug": "minshawi",
+      "format": "ayah"
+    },
+    "117": {
+      "slug": "al-shatri",
+      "format": "ayah"
+    },
+    "103": {
+      "slug": "al-dosari",
+      "format": "ayah"
+    },
+    "388": {
+      "slug": "bandar-baleela",
+      "format": "surah"
+    },
+    "419": {
+      "slug": "muhammad-jibreel",
+      "format": "surah"
+    },
+    "314": {
+      "slug": "minshawi-children",
+      "format": "surah"
+    }
+  },
+  "bundled_in_app": {
+    "font/249": "QPC V2 page fonts (assets/fonts/qpc-v2, 604 TTFs)",
+    "font/245": "QPC Hafs font (assets/fonts/hafs.18.ttf)",
+    "mushaf-layout/10": "QPC V2 15-line page layout (assets/data/madinah-v2)",
+    "quran-script/312": "KFGQPC Hafs word-by-word text (assets/data/madinah-v2)",
+    "tafsir/523": "Jalalayn — the copy built into the app (assets/tafseer/jalalayn)"
+  }
+}

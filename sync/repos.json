@@ -1,0 +1,909 @@
+{
+  "Arabic": {
+    "language": "Arabic",
+    "repos": [
+      "Tahfeez-Quran-Tafseer",
+      "Tafseer-Arabic-Other"
+    ],
+    "tafsirs": [
+      {
+        "qul_id": 22,
+        "name": "Tafsir Ibn Kathir",
+        "slug": "ibn-kathir",
+        "repo": "Tahfeez-Quran-Tafseer"
+      },
+      {
+        "qul_id": 23,
+        "name": "Tafseer Al Qurtubi",
+        "slug": "qurtubi",
+        "repo": "Tahfeez-Quran-Tafseer"
+      },
+      {
+        "qul_id": 24,
+        "name": "Tafseer Al Saadi - Arabic",
+        "slug": "al-saadi-arabic",
+        "repo": "Tafseer-Arabic-Other"
+      },
+      {
+        "qul_id": 25,
+        "name": "Tafsir al-Tahrir wa al-Tanwir",
+        "slug": "al-tahrir-wa-al-tanwir",
+        "repo": "Tafseer-Arabic-Other"
+      },
+      {
+        "qul_id": 26,
+        "name": "Tafsir Al Wasit",
+        "slug": "al-wasit",
+        "repo": "Tafseer-Arabic-Other"
+      },
+      {
+        "qul_id": 27,
+        "name": "Tafseer Al-Baghawi",
+        "slug": "al-baghawi",
+        "repo": "Tafseer-Arabic-Other"
+      },
+      {
+        "qul_id": 37,
+        "name": "Tafsir al-Tabari",
+        "slug": "tabari",
+        "repo": "Tahfeez-Quran-Tafseer"
+      },
+      {
+        "qul_id": 38,
+        "name": "Tafsir Muyassar",
+        "slug": "muyassar",
+        "repo": "Tafseer-Arabic-Other"
+      },
+      {
+        "qul_id": 250,
+        "name": "Asseraj fi Bayan Gharib AlQuran",
+        "slug": "asseraj-fi-bayan-gharib-alquran",
+        "repo": "Tafseer-Arabic-Other"
+      },
+      {
+        "qul_id": 251,
+        "name": "Arabic Al-Mukhtasar in interpreting the Noble Quran",
+        "slug": "arabic-al-mukhtasar-in-interpreting-the-noble-quran",
+        "repo": "Tafseer-Arabic-Other"
+      },
+      {
+        "qul_id": 308,
+        "name": "Tafsir As-Saadi",
+        "slug": "as-saadi",
+        "repo": "Tafseer-Arabic-Other"
+      },
+      {
+        "qul_id": 486,
+        "name": "Tafsir Ibn Uthaymeen",
+        "slug": "ibn-uthaymeen",
+        "repo": "Tafseer-Arabic-Other"
+      },
+      {
+        "qul_id": 487,
+        "name": "Tahlil Kalimat al-Qur'an",
+        "slug": "tahlil-kalimat-al-quran",
+        "repo": "Tafseer-Arabic-Other"
+      },
+      {
+        "qul_id": 488,
+        "name": "Tafsir Al-Razi",
+        "slug": "al-razi",
+        "repo": "Tafseer-Arabic-Other"
+      },
+      {
+        "qul_id": 489,
+        "name": "Al-Wajiz Wahidi",
+        "slug": "al-wajiz-wahidi",
+        "repo": "Tafseer-Arabic-Other"
+      },
+      {
+        "qul_id": 490,
+        "name": "Tafsir Makhi",
+        "slug": "makhi",
+        "repo": "Tafseer-Arabic-Other"
+      },
+      {
+        "qul_id": 491,
+        "name": "Tafsir Ibn Juzay",
+        "slug": "ibn-juzay",
+        "repo": "Tafseer-Arabic-Other"
+      },
+      {
+        "qul_id": 492,
+        "name": "Mawsoo'at Al-Tafsir Al-Ma'thoor",
+        "slug": "mawsooat-al-tafsir-al-mathoor",
+        "repo": "Tafseer-Arabic-Other"
+      },
+      {
+        "qul_id": 493,
+        "name": "Al-Durr Al-Manthur",
+        "slug": "al-durr-al-manthur",
+        "repo": "Tafseer-Arabic-Other"
+      },
+      {
+        "qul_id": 494,
+        "name": "Fath Al-Qadir Al-Shawkani",
+        "slug": "fath-al-qadir-al-shawkani",
+        "repo": "Tafseer-Arabic-Other"
+      },
+      {
+        "qul_id": 495,
+        "name": "Fath Al-Bayan li Al-Qanuji",
+        "slug": "fath-al-bayan-li-al-qanuji",
+        "repo": "Tafseer-Arabic-Other"
+      },
+      {
+        "qul_id": 496,
+        "name": "Tafsir Ibn Al-Jawzi",
+        "slug": "ibn-al-jawzi",
+        "repo": "Tafseer-Arabic-Other"
+      },
+      {
+        "qul_id": 497,
+        "name": "Tafsir Abi Al-Suaood",
+        "slug": "abi-al-suaood",
+        "repo": "Tafseer-Arabic-Other"
+      },
+      {
+        "qul_id": 498,
+        "name": "Nazam Al-Durar Al-Biqa'i",
+        "slug": "nazam-al-durar-al-biqai",
+        "repo": "Tafseer-Arabic-Other"
+      },
+      {
+        "qul_id": 499,
+        "name": "Tafsir Ibn Abi Zamanin",
+        "slug": "ibn-abi-zamanin",
+        "repo": "Tafseer-Arabic-Other"
+      },
+      {
+        "qul_id": 500,
+        "name": "Tafsir Ibn Al-Qayyim",
+        "slug": "ibn-al-qayyim",
+        "repo": "Tafseer-Arabic-Other"
+      },
+      {
+        "qul_id": 501,
+        "name": "Tafsir Al-Alusi",
+        "slug": "al-alusi",
+        "repo": "Tafseer-Arabic-Other"
+      },
+      {
+        "qul_id": 502,
+        "name": "Tafsir Ibn Abi Hatim",
+        "slug": "ibn-abi-hatim",
+        "repo": "Tafseer-Arabic-Other"
+      },
+      {
+        "qul_id": 504,
+        "name": "Iraab Al-Muyassar",
+        "slug": "iraab-al-muyassar",
+        "repo": "Tafseer-Arabic-Other"
+      },
+      {
+        "qul_id": 505,
+        "name": "Al Dur Al Masun Lil Samin Al Halabi",
+        "slug": "al-dur-al-masun-lil-samin-al-halabi",
+        "repo": "Tafseer-Arabic-Other"
+      },
+      {
+        "qul_id": 506,
+        "name": "I'rab Al Quran li Al Darwish",
+        "slug": "irab-al-quran-li-al-darwish",
+        "repo": "Tafseer-Arabic-Other"
+      },
+      {
+        "qul_id": 507,
+        "name": "Abu Bakr Jabir Al-Jazairi",
+        "slug": "abu-bakr-jabir-al-jazairi",
+        "repo": "Tafseer-Arabic-Other"
+      },
+      {
+        "qul_id": 508,
+        "name": "Jamia Al-Bayan AlIji",
+        "slug": "jamia-al-bayan-aliji",
+        "repo": "Tafseer-Arabic-Other"
+      },
+      {
+        "qul_id": 509,
+        "name": "Al-Muharrar Al-Wajiz Ibn Atiyyah",
+        "slug": "al-muharrar-al-wajiz-ibn-atiyyah",
+        "repo": "Tafseer-Arabic-Other"
+      },
+      {
+        "qul_id": 510,
+        "name": "Al-Kashshaf Al-Zamakhshari",
+        "slug": "al-kashshaf-al-zamakhshari",
+        "repo": "Tafseer-Arabic-Other"
+      },
+      {
+        "qul_id": 511,
+        "name": "Al-Basit",
+        "slug": "al-basit",
+        "repo": "Tafseer-Arabic-Other"
+      },
+      {
+        "qul_id": 512,
+        "name": "Tafsir Al-Mawardi",
+        "slug": "al-mawardi",
+        "repo": "Tafseer-Arabic-Other"
+      },
+      {
+        "qul_id": 513,
+        "name": "Tafsir Al-Samarqandi",
+        "slug": "al-samarqandi",
+        "repo": "Tafseer-Arabic-Other"
+      },
+      {
+        "qul_id": 514,
+        "name": "Tafsir Al-Nasafi",
+        "slug": "al-nasafi",
+        "repo": "Tafseer-Arabic-Other"
+      },
+      {
+        "qul_id": 515,
+        "name": "Alrab Al-Quran li-Da'as",
+        "slug": "alrab-al-quran-li-daas",
+        "repo": "Tafseer-Arabic-Other"
+      },
+      {
+        "qul_id": 516,
+        "name": "Al Lubab fi Ulum Al Kitab",
+        "slug": "al-lubab-fi-ulum-al-kitab",
+        "repo": "Tafseer-Arabic-Other"
+      },
+      {
+        "qul_id": 517,
+        "name": "Tadabbur wa 'Amal",
+        "slug": "tadabbur-wa-amal",
+        "repo": "Tafseer-Arabic-Other"
+      },
+      {
+        "qul_id": 518,
+        "name": "Tafsir Al-Baydawi",
+        "slug": "al-baydawi",
+        "repo": "Tafseer-Arabic-Other"
+      },
+      {
+        "qul_id": 519,
+        "name": "Al-Muyassar fi Al-Gharib",
+        "slug": "al-muyassar-fi-al-gharib",
+        "repo": "Tafseer-Arabic-Other"
+      },
+      {
+        "qul_id": 520,
+        "name": "Al Jadwal fi I'rab Al Quran",
+        "slug": "al-jadwal-fi-irab-al-quran",
+        "repo": "Tafseer-Arabic-Other"
+      },
+      {
+        "qul_id": 521,
+        "name": "Al Qira'at Al Mawsoo'ah Al Qur'aniyyah",
+        "slug": "al-qiraat-al-mawsooah-al-quraniyyah",
+        "repo": "Tafseer-Arabic-Other"
+      },
+      {
+        "qul_id": 522,
+        "name": "Al Nashr li Ibn Al Jazari",
+        "slug": "al-nashr-li-ibn-al-jazari",
+        "repo": "Tafseer-Arabic-Other"
+      },
+      {
+        "qul_id": 523,
+        "name": "Tafsir Jalalayn",
+        "slug": "jalalayn",
+        "repo": "Tahfeez-Quran-Tafseer"
+      },
+      {
+        "qul_id": 524,
+        "name": "Mahasin Al-Ta'wil Al-Qasimi",
+        "slug": "mahasin-al-tawil-al-qasimi",
+        "repo": "Tafseer-Arabic-Other"
+      },
+      {
+        "qul_id": 525,
+        "name": "Adwa' Al-Bayan",
+        "slug": "adwa-al-bayan",
+        "repo": "Tafseer-Arabic-Other"
+      },
+      {
+        "qul_id": 526,
+        "name": "Al-Bahr Al-Muhit",
+        "slug": "al-bahr-al-muhit",
+        "repo": "Tafseer-Arabic-Other"
+      },
+      {
+        "qul_id": 527,
+        "name": "Tafsir Al-Tha'alibi",
+        "slug": "al-thaalibi",
+        "repo": "Tafseer-Arabic-Other"
+      },
+      {
+        "qul_id": 528,
+        "name": "Tafsir Al-Tha'alibi",
+        "slug": "al-thaalibi-v2",
+        "repo": "Tafseer-Arabic-Other"
+      },
+      {
+        "qul_id": 529,
+        "name": "Tafsir Al-Sam'ani",
+        "slug": "al-samani",
+        "repo": "Tafseer-Arabic-Other"
+      },
+      {
+        "qul_id": 563,
+        "name": "Ayah Dependency Graphs",
+        "slug": "ayah-dependency-graphs",
+        "repo": "Tafseer-Arabic-Other"
+      }
+    ]
+  },
+  "Bengali": {
+    "language": "Bengali",
+    "repos": [
+      "Tafseer-Bengali"
+    ],
+    "tafsirs": [
+      {
+        "qul_id": 31,
+        "name": "Tafseer ibn Kathir",
+        "slug": "ibn-kathir",
+        "repo": "Tafseer-Bengali"
+      },
+      {
+        "qul_id": 32,
+        "name": "Tafsir Ahsanul Bayaan",
+        "slug": "ahsanul-bayaan",
+        "repo": "Tafseer-Bengali"
+      },
+      {
+        "qul_id": 33,
+        "name": "Tafsir Abu Bakr Zakaria",
+        "slug": "abu-bakr-zakaria",
+        "repo": "Tafseer-Bengali"
+      },
+      {
+        "qul_id": 39,
+        "name": "Tafsir Fathul Majid",
+        "slug": "fathul-majid",
+        "repo": "Tafseer-Bengali"
+      },
+      {
+        "qul_id": 267,
+        "name": "Bengali Abridged Explanation of the Quran",
+        "slug": "bengali-abridged-explanation-of-the-quran",
+        "repo": "Tafseer-Bengali"
+      }
+    ]
+  },
+  "Urdu": {
+    "language": "Urdu",
+    "repos": [
+      "Tafseer-Urdu"
+    ],
+    "tafsirs": [
+      {
+        "qul_id": 28,
+        "name": "Fi Zilal al-Quran",
+        "slug": "fi-zilal-al-quran",
+        "repo": "Tafseer-Urdu"
+      },
+      {
+        "qul_id": 29,
+        "name": "Tafsir Bayan ul Quran",
+        "slug": "bayan-ul-quran",
+        "repo": "Tafseer-Urdu"
+      },
+      {
+        "qul_id": 30,
+        "name": "Tafsir Ibn Kathir",
+        "slug": "ibn-kathir",
+        "repo": "Tafseer-Urdu"
+      },
+      {
+        "qul_id": 43,
+        "name": "Tazkirul Quran(Maulana Wahiduddin Khan)",
+        "slug": "tazkirul-quranmaulana-wahiduddin-khan",
+        "repo": "Tafseer-Urdu"
+      },
+      {
+        "qul_id": 309,
+        "name": "Tafsir As-Saadi - Urdu",
+        "slug": "as-saadi-urdu",
+        "repo": "Tafseer-Urdu"
+      }
+    ]
+  },
+  "English": {
+    "language": "English",
+    "repos": [
+      "Tafseer-English"
+    ],
+    "tafsirs": [
+      {
+        "qul_id": 34,
+        "name": "Maarif-ul-Quran",
+        "slug": "maarif-ul-quran",
+        "repo": "Tafseer-English"
+      },
+      {
+        "qul_id": 35,
+        "name": "Tafsir Ibn Kathir",
+        "slug": "ibn-kathir",
+        "repo": "Tafseer-English"
+      },
+      {
+        "qul_id": 42,
+        "name": "Tazkirul Quran(Maulana Wahiduddin Khan)",
+        "slug": "tazkirul-quranmaulana-wahiduddin-khan",
+        "repo": "Tafseer-English"
+      },
+      {
+        "qul_id": 266,
+        "name": "English Al-Mukhtasar",
+        "slug": "english-al-mukhtasar",
+        "repo": "Tafseer-English"
+      }
+    ]
+  },
+  "Russian": {
+    "language": "Russian",
+    "repos": [
+      "Tafseer-Russian"
+    ],
+    "tafsirs": [
+      {
+        "qul_id": 36,
+        "name": "Tafseer Al Saadi - Russian",
+        "slug": "al-saadi-russian",
+        "repo": "Tafseer-Russian"
+      },
+      {
+        "qul_id": 262,
+        "name": "Russian Al-Mukhtasar",
+        "slug": "russian-al-mukhtasar",
+        "repo": "Tafseer-Russian"
+      },
+      {
+        "qul_id": 307,
+        "name": "Tafsir Ibne Kathir",
+        "slug": "ibne-kathir",
+        "repo": "Tafseer-Russian"
+      },
+      {
+        "qul_id": 310,
+        "name": "Tafsir As-Saadi",
+        "slug": "as-saadi",
+        "repo": "Tafseer-Russian"
+      }
+    ]
+  },
+  "Indonesian": {
+    "language": "Indonesian",
+    "repos": [
+      "Tafseer-Indonesian"
+    ],
+    "tafsirs": [
+      {
+        "qul_id": 41,
+        "name": "Tafsir Jalalayn",
+        "slug": "jalalayn",
+        "repo": "Tafseer-Indonesian"
+      },
+      {
+        "qul_id": 260,
+        "name": "Indoniesua Al-Mukhtasar in Interpreting the Noble Quran",
+        "slug": "indoniesua-al-mukhtasar-in-interpreting-the-noble-quran",
+        "repo": "Tafseer-Indonesian"
+      },
+      {
+        "qul_id": 503,
+        "name": "Tafsir As-Saadi - Indonesian",
+        "slug": "as-saadi-indonesian",
+        "repo": "Tafseer-Indonesian"
+      }
+    ]
+  },
+  "Turkish": {
+    "language": "Turkish",
+    "repos": [
+      "Tafseer-Turkish"
+    ],
+    "tafsirs": [
+      {
+        "qul_id": 258,
+        "name": "Turkish Al-Mukhtasar in Interpreting the Noble Quran",
+        "slug": "turkish-al-mukhtasar-in-interpreting-the-noble-quran",
+        "repo": "Tafseer-Turkish"
+      },
+      {
+        "qul_id": 306,
+        "name": "Tafsir Ibne Kathir",
+        "slug": "ibne-kathir",
+        "repo": "Tafseer-Turkish"
+      },
+      {
+        "qul_id": 484,
+        "name": "Tafsir As-Saadi - Turkish",
+        "slug": "as-saadi-turkish",
+        "repo": "Tafseer-Turkish"
+      }
+    ]
+  },
+  "Kurdish": {
+    "language": "Kurdish",
+    "repos": [
+      "Tafseer-Kurdish"
+    ],
+    "tafsirs": [
+      {
+        "qul_id": 40,
+        "name": "Rebar Kurdish Tafsir",
+        "slug": "rebar-kurdish-tafsir",
+        "repo": "Tafseer-Kurdish"
+      },
+      {
+        "qul_id": 542,
+        "name": "Kurdish Mokhtasar",
+        "slug": "kurdish-mokhtasar",
+        "repo": "Tafseer-Kurdish"
+      }
+    ]
+  },
+  "Persian": {
+    "language": "Persian",
+    "repos": [
+      "Tafseer-Persian"
+    ],
+    "tafsirs": [
+      {
+        "qul_id": 263,
+        "name": "Persian Al-Mukhtasar in interpreting the Noble Quran",
+        "slug": "persian-al-mukhtasar-in-interpreting-the-noble-quran",
+        "repo": "Tafseer-Persian"
+      },
+      {
+        "qul_id": 485,
+        "name": "Tafsir As-Saadi - Persian",
+        "slug": "as-saadi-persian",
+        "repo": "Tafseer-Persian"
+      }
+    ]
+  },
+  "Albanian": {
+    "language": "Albanian",
+    "repos": [
+      "Tafseer-Albanian"
+    ],
+    "tafsirs": [
+      {
+        "qul_id": 283,
+        "name": "Tafsir As-Saadi",
+        "slug": "as-saadi",
+        "repo": "Tafseer-Albanian"
+      }
+    ]
+  },
+  "Assamese": {
+    "language": "Assamese",
+    "repos": [
+      "Tafseer-Assamese"
+    ],
+    "tafsirs": [
+      {
+        "qul_id": 255,
+        "name": "Assamese Abridged Explanation of the Quran",
+        "slug": "assamese-abridged-explanation-of-the-quran",
+        "repo": "Tafseer-Assamese"
+      }
+    ]
+  },
+  "Azeri": {
+    "language": "Azeri",
+    "repos": [
+      "Tafseer-Azeri"
+    ],
+    "tafsirs": [
+      {
+        "qul_id": 537,
+        "name": "Azeri Mokhtasar",
+        "slug": "azeri-mokhtasar",
+        "repo": "Tafseer-Azeri"
+      }
+    ]
+  },
+  "Bosnian": {
+    "language": "Bosnian",
+    "repos": [
+      "Tafseer-Bosnian"
+    ],
+    "tafsirs": [
+      {
+        "qul_id": 252,
+        "name": "Bosnian Abridged Explanation of the Quran",
+        "slug": "bosnian-abridged-explanation-of-the-quran",
+        "repo": "Tafseer-Bosnian"
+      }
+    ]
+  },
+  "Chinese": {
+    "language": "Chinese",
+    "repos": [
+      "Tafseer-Chinese"
+    ],
+    "tafsirs": [
+      {
+        "qul_id": 264,
+        "name": "Chinese Abridged Explanation of the Quran",
+        "slug": "chinese-abridged-explanation-of-the-quran",
+        "repo": "Tafseer-Chinese"
+      }
+    ]
+  },
+  "Filipino": {
+    "language": "Filipino",
+    "repos": [
+      "Tafseer-Filipino"
+    ],
+    "tafsirs": [
+      {
+        "qul_id": 254,
+        "name": "Filipino (Tagalog) Al-Mukhtasar in interpreting the Noble Quran",
+        "slug": "filipino-tagalog-al-mukhtasar-in-interpreting-the-noble-quran",
+        "repo": "Tafseer-Filipino"
+      }
+    ]
+  },
+  "French": {
+    "language": "French",
+    "repos": [
+      "Tafseer-French"
+    ],
+    "tafsirs": [
+      {
+        "qul_id": 259,
+        "name": "French Abridged Explanation of the Quran",
+        "slug": "french-abridged-explanation-of-the-quran",
+        "repo": "Tafseer-French"
+      }
+    ]
+  },
+  "Fulani": {
+    "language": "Fulani",
+    "repos": [
+      "Tafseer-Fulani"
+    ],
+    "tafsirs": [
+      {
+        "qul_id": 534,
+        "name": "Fulani Mokhtasar",
+        "slug": "fulani-mokhtasar",
+        "repo": "Tafseer-Fulani"
+      }
+    ]
+  },
+  "Hindi": {
+    "language": "Hindi",
+    "repos": [
+      "Tafseer-Hindi"
+    ],
+    "tafsirs": [
+      {
+        "qul_id": 535,
+        "name": "Hindi Mokhtasar",
+        "slug": "hindi-mokhtasar",
+        "repo": "Tafseer-Hindi"
+      }
+    ]
+  },
+  "Italian": {
+    "language": "Italian",
+    "repos": [
+      "Tafseer-Italian"
+    ],
+    "tafsirs": [
+      {
+        "qul_id": 253,
+        "name": "Italian Al-Mukhtasar in interpreting the Noble Quran",
+        "slug": "italian-al-mukhtasar-in-interpreting-the-noble-quran",
+        "repo": "Tafseer-Italian"
+      }
+    ]
+  },
+  "Japanese": {
+    "language": "Japanese",
+    "repos": [
+      "Tafseer-Japanese"
+    ],
+    "tafsirs": [
+      {
+        "qul_id": 265,
+        "name": "Japanese Abridged Explanation of the Quran",
+        "slug": "japanese-abridged-explanation-of-the-quran",
+        "repo": "Tafseer-Japanese"
+      }
+    ]
+  },
+  "Khmer": {
+    "language": "Khmer",
+    "repos": [
+      "Tafseer-Khmer"
+    ],
+    "tafsirs": [
+      {
+        "qul_id": 257,
+        "name": "Khmer Abridged Explanation of the Quran",
+        "slug": "khmer-abridged-explanation-of-the-quran",
+        "repo": "Tafseer-Khmer"
+      }
+    ]
+  },
+  "Kyrgyz": {
+    "language": "Kyrgyz",
+    "repos": [
+      "Tafseer-Kyrgyz"
+    ],
+    "tafsirs": [
+      {
+        "qul_id": 536,
+        "name": "Kyrgyz Mokhtasar",
+        "slug": "kyrgyz-mokhtasar",
+        "repo": "Tafseer-Kyrgyz"
+      }
+    ]
+  },
+  "Malayalam": {
+    "language": "Malayalam",
+    "repos": [
+      "Tafseer-Malayalam"
+    ],
+    "tafsirs": [
+      {
+        "qul_id": 256,
+        "name": "Malayalam Abridged Explanation of the Quran",
+        "slug": "malayalam-abridged-explanation-of-the-quran",
+        "repo": "Tafseer-Malayalam"
+      }
+    ]
+  },
+  "Pashto": {
+    "language": "Pashto",
+    "repos": [
+      "Tafseer-Pashto"
+    ],
+    "tafsirs": [
+      {
+        "qul_id": 533,
+        "name": "Pashto Mokhtasar",
+        "slug": "pashto-mokhtasar",
+        "repo": "Tafseer-Pashto"
+      }
+    ]
+  },
+  "Serbian": {
+    "language": "Serbian",
+    "repos": [
+      "Tafseer-Serbian"
+    ],
+    "tafsirs": [
+      {
+        "qul_id": 543,
+        "name": "Serbian Mokhtasar",
+        "slug": "serbian-mokhtasar",
+        "repo": "Tafseer-Serbian"
+      }
+    ]
+  },
+  "Sinhala": {
+    "language": "Sinhala",
+    "repos": [
+      "Tafseer-Sinhala"
+    ],
+    "tafsirs": [
+      {
+        "qul_id": 453,
+        "name": "Sinhalese Mokhtasar",
+        "slug": "sinhalese-mokhtasar",
+        "repo": "Tafseer-Sinhala"
+      }
+    ]
+  },
+  "Spanish": {
+    "language": "Spanish",
+    "repos": [
+      "Tafseer-Spanish"
+    ],
+    "tafsirs": [
+      {
+        "qul_id": 268,
+        "name": "Spanish Abridged Explanation of the Quran",
+        "slug": "spanish-abridged-explanation-of-the-quran",
+        "repo": "Tafseer-Spanish"
+      }
+    ]
+  },
+  "Tamil": {
+    "language": "Tamil",
+    "repos": [
+      "Tafseer-Tamil"
+    ],
+    "tafsirs": [
+      {
+        "qul_id": 554,
+        "name": "Tamil Mokhtasar",
+        "slug": "tamil-mokhtasar",
+        "repo": "Tafseer-Tamil"
+      }
+    ]
+  },
+  "Telugu": {
+    "language": "Telugu",
+    "repos": [
+      "Tafseer-Telugu"
+    ],
+    "tafsirs": [
+      {
+        "qul_id": 540,
+        "name": "Telugu Mokhtasar",
+        "slug": "telugu-mokhtasar",
+        "repo": "Tafseer-Telugu"
+      }
+    ]
+  },
+  "Thai": {
+    "language": "Thai",
+    "repos": [
+      "Tafseer-Thai"
+    ],
+    "tafsirs": [
+      {
+        "qul_id": 541,
+        "name": "Thai Mokhtasar",
+        "slug": "thai-mokhtasar",
+        "repo": "Tafseer-Thai"
+      }
+    ]
+  },
+  "Uyghur": {
+    "language": "Uyghur",
+    "repos": [
+      "Tafseer-Uyghur"
+    ],
+    "tafsirs": [
+      {
+        "qul_id": 539,
+        "name": "Uyghur Mokhtasar",
+        "slug": "uyghur-mokhtasar",
+        "repo": "Tafseer-Uyghur"
+      }
+    ]
+  },
+  "Uzbek": {
+    "language": "Uzbek",
+    "repos": [
+      "Tafseer-Uzbek"
+    ],
+    "tafsirs": [
+      {
+        "qul_id": 538,
+        "name": "Uzbek Mokhtasar",
+        "slug": "uzbek-mokhtasar",
+        "repo": "Tafseer-Uzbek"
+      }
+    ]
+  },
+  "Vietnamese": {
+    "language": "Vietnamese",
+    "repos": [
+      "Tafseer-Vietnamese"
+    ],
+    "tafsirs": [
+      {
+        "qul_id": 261,
+        "name": "Vietnamese Al-Mukhtasar in interpreting the Noble Quran",
+        "slug": "vietnamese-al-mukhtasar-in-interpreting-the-noble-quran",
+        "repo": "Tafseer-Vietnamese"
+      }
+    ]
+  }
+}

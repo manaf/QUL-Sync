@@ -1,0 +1,34 @@
+name: Fingerprint sync
+# Hourly (at :17, away from the busy top of the hour). "Run workflow" runs it now.
+on:
+  schedule:
+    - cron: '17 * * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+  issues: write
+concurrency:
+  group: qul-sync
+  cancel-in-progress: false
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Update fingerprints in the index files
+        working-directory: sync
+        run: python fingerprints.py
+        env:
+          DATA_TOKEN: ${{ secrets.DATA_TOKEN }}
+          GITHUB_TOKEN: ${{ github.token }}
+      - name: Save caches
+        if: always()
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add sync/cache sync/repos.json sync/state.json
+          git diff --cached --quiet || (git commit -m 'Fingerprint sync: update caches' && git pull --rebase --quiet && git push)

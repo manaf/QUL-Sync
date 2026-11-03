@@ -1,0 +1,35 @@
+name: QUL check
+# Daily at 06:00 Gulf time (02:00 UTC). "Run workflow" on the Actions tab runs it now.
+on:
+  schedule:
+    - cron: '0 2 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+  issues: write
+concurrency:
+  group: qul-sync
+  cancel-in-progress: false
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Check QUL for changes
+        working-directory: sync
+        run: python check.py
+        env:
+          QUL_TOKEN: ${{ secrets.QUL_TOKEN }}
+          DATA_TOKEN: ${{ secrets.DATA_TOKEN }}
+          GITHUB_TOKEN: ${{ github.token }}
+      - name: Save what was seen
+        if: always()
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add sync/state.json
+          git diff --cached --quiet || (git commit -m 'QUL check: update state' && git pull --rebase --quiet && git push)
