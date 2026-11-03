@@ -1,8 +1,8 @@
 name: Fingerprint sync
-# Hourly (at :17, away from the busy top of the hour). "Run workflow" runs it now.
+# Hourly (at :13, away from the busy top of the hour). "Run workflow" runs it now.
 on:
   schedule:
-    - cron: '17 * * * *'
+    - cron: '13 * * * *'
   workflow_dispatch:
 permissions:
   contents: write
