@@ -1,6 +1,6 @@
 {
   "owner": "manaf",
-  "dry_run": true,
+  "dry_run": false,
   "notify": "manaf",
   "repos": {
     "featured": "Tahfeez-Quran-Tafseer",
