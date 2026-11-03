@@ -50,6 +50,11 @@ def request(url, method='GET', headers=None, data=None, retries=3, timeout=120):
                 return r.status, body, r.headers
         except urllib.error.HTTPError as e:
             body = e.read()
+            if e.headers.get('Content-Encoding') == 'gzip':
+                try:
+                    body = gzip.decompress(body)
+                except OSError:
+                    pass
             if e.code < 500 or attempt == retries - 1:
                 raise HttpError(e.code, url, body)
         except (urllib.error.URLError, TimeoutError, ConnectionError):
