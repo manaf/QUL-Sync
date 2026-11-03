@@ -112,6 +112,9 @@ class GitHub:
     def put(self, path, payload):
         return self._call('PUT', path, payload)
 
+    def delete(self, path):
+        return self._call('DELETE', path)
+
     # repo content
     def head(self, repo, branch='main'):
         return self.get(f'/repos/{OWNER}/{repo}/git/ref/heads/{branch}')['object']['sha']

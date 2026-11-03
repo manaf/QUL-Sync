@@ -9,6 +9,10 @@ on:
         description: 'Only send a test notice (checks that the emails arrive)'
         type: boolean
         default: false
+      self_test:
+        description: 'Only run the self-test (checks the access token can open pull requests)'
+        type: boolean
+        default: false
 permissions:
   contents: write
   issues: write
@@ -26,7 +30,7 @@ jobs:
           python-version: '3.12'
       - name: Check QUL for changes
         working-directory: sync
-        run: python check.py ${{ inputs.test_notice && '--test-notice' || '' }}
+        run: python check.py ${{ inputs.test_notice && '--test-notice' || '' }} ${{ inputs.self_test && '--self-test' || '' }}
         env:
           QUL_TOKEN: ${{ secrets.QUL_TOKEN }}
           DATA_TOKEN: ${{ secrets.DATA_TOKEN }}

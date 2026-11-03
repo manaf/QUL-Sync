@@ -217,9 +217,65 @@ def test_notice():
     print('Opened', issue['html_url'])
 
 
+def self_test():
+    """Run workflow → "Self-test": proves DATA_TOKEN can do what live mode
+    needs, without changing any file on main. Opens a test pull request in
+    Tafseer-Additional (then closes it and deletes its branch), and creates
+    and deletes a test branch in the index and data repos."""
+    gh = GitHub(env('DATA_TOKEN'))
+    branch = 'qul/self-test'
+    results, ok = [], True
+
+    def step(name, fn):
+        nonlocal ok
+        try:
+            detail = fn()
+            results.append(f'✅ {name}' + (f' — {detail}' if detail else ''))
+        except Exception as e:
+            ok = False
+            results.append(f'❌ {name} — {e}')
+
+    repo = REPOS['additional']
+    pr = {}
+
+    def open_pr():
+        gh.commit_files(repo, branch, {'self-test/README.md': f'QUL-Sync self-test {date.today()}\n'.encode()},
+                        'QUL-Sync self-test (closed automatically)')
+        p, _ = gh.open_or_update_pr(repo, branch, 'QUL-Sync self-test (closed automatically)',
+                                    'Opened by the self-test to prove the access token works. It is closed and its branch deleted at once.')
+        pr.update(p)
+        files = [f['filename'] for f in gh.get(f'/repos/{OWNER}/{repo}/pulls/{p["number"]}/files')]
+        if files != ['self-test/README.md']:
+            raise RuntimeError(f'unexpected files in the pull request: {files}')
+        return f'#{p["number"]}'
+
+    step(f'{repo}: commit on a branch + open a pull request', open_pr)
+    if pr:
+        step(f'{repo}: close the test pull request',
+             lambda: gh.patch(f'/repos/{OWNER}/{repo}/pulls/{pr["number"]}', {'state': 'closed'}) and None)
+    step(f'{repo}: delete the test branch', lambda: gh.delete(f'/repos/{OWNER}/{repo}/git/refs/heads/{branch}'))
+    for other in (REPOS['tafseer_index'], REPOS['recitation_index'], REPOS['recitations'], 'Tafseer-French'):
+        def branch_roundtrip(other=other):
+            gh.post(f'/repos/{OWNER}/{other}/git/refs', {'ref': f'refs/heads/{branch}', 'sha': gh.head(other)})
+            gh.delete(f'/repos/{OWNER}/{other}/git/refs/heads/{branch}')
+        step(f'{other}: write access (create + delete a test branch)', branch_roundtrip)
+
+    body = ('Self-test **passed** — live mode can open pull requests and update the indexes.' if ok
+            else 'Self-test **failed** — see below. Check that DATA_TOKEN includes these repos with Contents and Pull requests: read and write.')
+    body += '\n\n' + '\n'.join(f'- {r}' for r in results) + '\n\nNo file on main was changed.'
+    bot = GitHub(env('GITHUB_TOKEN'))
+    me = os.environ.get('GITHUB_REPOSITORY', f'{OWNER}/QUL-Sync').split('/')[1]
+    bot.issue(me, f'Self-test {"passed" if ok else "FAILED"}', f'@{CONFIG["notify"]} {body}')
+    print(body)
+    if not ok:
+        sys.exit(1)
+
+
 def main():
     if '--test-notice' in sys.argv:
         return test_notice()
+    if '--self-test' in sys.argv:
+        return self_test()
     dry = CONFIG['dry_run'] or '--dry-run' in sys.argv
     local = '--local' in sys.argv
     state = load('state.json', {}) or {}
