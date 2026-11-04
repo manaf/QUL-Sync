@@ -10,10 +10,12 @@ phones until the owner merges it.
 
 | Job | When | What it does |
 |---|---|---|
-| **QUL check** (`sync/check.py`) | daily, 06:00 Gulf time (02:00 UTC) | Reads QUL's [change log](https://qul.tarteel.ai/change_logs) down to the last entry it saw. For each change to a tafseer or reciter the app uses: downloads it, converts it to our file format and compares it **by text** with our copy. Real differences → a pull request in that data repo (an open one is updated). New QUL tafseers → a pull request (a new language goes into `Tafseer-Additional`; empty ones are skipped). New reciters and changes to resources built into the app (fonts, page layout, word data, the bundled Jalalayn) are reported only. Opens one summary issue here, which emails the owner. |
+| **QUL check** (`sync/check.py`) | twice a day, 06:07 and 18:07 Gulf time (02:07 / 14:07 UTC) | Reads QUL's [change log](https://qul.tarteel.ai/change_logs) down to the last entry it saw. For each change to a tafseer or reciter the app uses: downloads it, converts it to our file format and compares it **by text** with our copy. Real differences → a pull request in that data repo (an open one is updated). New QUL tafseers → a pull request (a new language goes into `Tafseer-Additional`; empty ones are skipped). New reciters and changes to resources built into the app (fonts, page layout, word data, the bundled Jalalayn) are reported only. Opens one summary issue here, which emails the owner. |
 | **Fingerprint sync** (`sync/fingerprints.py`) | hourly | Keeps the per-file fingerprints in `Tafseer-Index/languages.json` (`juz_fp`) and `Recitation-Index/reciters.json` (`files`) in step with the data repos — whatever changed them — and clears the jsDelivr cache. Phones re-download only files whose fingerprint changed. Also publishes merged new tafseers. |
 
 Both can be started by hand: **Actions → (job) → Run workflow**.
+
+GitHub fires only some scheduled runs in this repo (measured Nov 2026: about 1 in 7). The fingerprint sync therefore runs a **watchdog**: if no QUL check has completed for 7 days (`last_checked_at` in `sync/state.json`), it opens an issue — which emails you — at most once a week.
 
 ## Reviewing an update
 

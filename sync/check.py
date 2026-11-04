@@ -22,7 +22,7 @@ import sys
 import traceback
 import unicodedata
 import re
-from datetime import date
+from datetime import date, datetime, timezone
 
 from common import CONFIG, OWNER, GitHub, Qul, QulTokenExpired, load, save, env, strip_tags
 from convert import (coverage, compare_recitation, compare_tafseer, juz_of, surah_recitation_files,
@@ -289,6 +289,7 @@ def main():
     reciters = CONFIG['reciters']
     newest = state['last_change_log']
     failed_ids = []
+    stopped = False
     try:
         qul = Qul(env('QUL_TOKEN'))
         logs = qul.change_logs(state['last_change_log'])
@@ -341,10 +342,16 @@ def main():
         report.errors.append(f'**{e}** Sign in at qul.tarteel.ai ("Remember me" ticked), copy the `remember_user_token` '
                              f'cookie value and paste it into this repo\'s secret **QUL_TOKEN** (Settings → Secrets and variables → Actions).')
         newest = state['last_change_log']
+        stopped = True
     except Exception as e:
         report.errors.append(f'The check stopped: {e}')
         traceback.print_exc()
         newest = state['last_change_log']
+        stopped = True
+
+    if not stopped:
+        # Read by the fingerprint sync's watchdog (alerts after 7 days).
+        state['last_checked_at'] = datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
 
     # Retry failed entries next time: don't move past the oldest failure.
     if failed_ids:

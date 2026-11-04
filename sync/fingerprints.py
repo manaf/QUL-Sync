@@ -19,7 +19,7 @@ import hashlib
 import json
 import re
 import sys
-from datetime import date
+from datetime import date, datetime, timezone
 
 from common import CONFIG, OWNER, GitHub, load, save, env, purge_jsdelivr
 
@@ -163,11 +163,39 @@ def sync_recitations(gh, notes, dry):
     return cache
 
 
+WATCHDOG_DAYS = 7
+
+
+def watchdog(local):
+    """GitHub fires only some scheduled runs in this repo. If no QUL check
+    has completed for WATCHDOG_DAYS, email the owner (once a week at most)."""
+    state = load('state.json', {}) or {}
+    last = state.get('last_checked_at')
+    if not last:
+        return
+    age = datetime.now(timezone.utc) - datetime.strptime(last, '%Y-%m-%dT%H:%M:%SZ').replace(tzinfo=timezone.utc)
+    if age.days < WATCHDOG_DAYS:
+        return
+    sent = load('cache/watchdog.json', {}) or {}
+    if sent.get('alerted_at') and (datetime.now(timezone.utc) - datetime.strptime(
+            sent['alerted_at'], '%Y-%m-%dT%H:%M:%SZ').replace(tzinfo=timezone.utc)).days < WATCHDOG_DAYS:
+        return
+    text = (f'@{CONFIG["notify"]} The QUL check has not completed for **{age.days} days** (last: {last} UTC). '
+            'GitHub may have skipped its scheduled runs. To run it now: Actions → **QUL check** → **Run workflow**. '
+            'If it fails, the run log says why (often an expired QUL_TOKEN).')
+    print('Watchdog:', text)
+    if local:
+        return
+    GitHub(env('GITHUB_TOKEN')).issue('QUL-Sync', f'QUL check has not run for {age.days} days', text)
+    save('cache/watchdog.json', {'alerted_at': datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')})
+
+
 def main():
     dry = CONFIG['dry_run'] or '--dry-run' in sys.argv
     local = '--local' in sys.argv
     gh = GitHub(env('DATA_TOKEN'))
     notes = []
+    watchdog(local)
     t_cache, repos, state = sync_tafseer(gh, notes, dry)
     r_cache = sync_recitations(gh, notes, dry)
     print('\n'.join(notes) or 'Indexes already up to date.')

@@ -1,8 +1,12 @@
 name: QUL check
-# Daily at 06:00 Gulf time (02:00 UTC). "Run workflow" on the Actions tab runs it now.
+# Twice a day, 06:07 and 18:07 Gulf time (02:07 and 14:07 UTC) — off the
+# top of the hour, where GitHub drops the most scheduled runs. GitHub fires
+# only some scheduled runs in this repo; the fingerprint sync's watchdog
+# emails the owner if no check has completed for 7 days.
+# "Run workflow" on the Actions tab runs it now.
 on:
   schedule:
-    - cron: '0 2 * * *'
+    - cron: '7 2,14 * * *'
   workflow_dispatch:
     inputs:
       test_notice:
