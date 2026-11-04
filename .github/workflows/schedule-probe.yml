@@ -1,0 +1,14 @@
+name: Schedule probe
+# Temporary: checks that GitHub fires scheduled runs in this repo at all.
+# Prints a line and does nothing else. Delete once a scheduled run shows up.
+on:
+  schedule:
+    - cron: '*/5 * * * *'
+  workflow_dispatch:
+permissions: {}
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    steps:
+      - run: echo "scheduled runs fire in this repo ($(date -u))"
