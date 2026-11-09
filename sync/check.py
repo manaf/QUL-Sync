@@ -41,6 +41,9 @@ def slugify(text):
     return re.sub(r'^(tafsir|tafseer)-', '', s)
 
 
+CUSTOM = 'Reciters with our own timings (compare by hand, not updated)'
+
+
 class Report:
     def __init__(self, dry):
         self.dry = dry
@@ -51,7 +54,7 @@ class Report:
         self.items.append((section, line))
 
     def markdown(self):
-        order = ['Ready for your review', 'Would open a pull request (dry run)', 'New tafseers',
+        order = ['Ready for your review', 'Would open a pull request (dry run)', CUSTOM, 'New tafseers',
                  'Built into the app (needs an app update)', 'New reciters on QUL (not added)',
                  'Checked: no differences']
         out = []
@@ -139,6 +142,14 @@ def recitation_update(gh, qul, report, rid, rec, logs, dry):
     name = f'reciter {rec["slug"]}'
     if not changes:
         report.add('Checked: no differences', f'{name} — QUL change log #{logs[0]["id"]} is already in our copy')
+        return
+    if rec.get('custom'):
+        # Our copy holds our own timings for this reciter: a pull request
+        # would replace them with QUL's, so only report it, to compare by hand.
+        report.add(CUSTOM, f'{name} — **{logs[0]["title"]}** ([change log #{logs[0]["id"]}]'
+                           f'(https://qul.tarteel.ai/change_logs/{logs[0]["id"]})): QUL\'s version differs in '
+                           f'{len(changes)} file(s), e.g. {", ".join(f"`{n}`" for n, _ in changes[:5])}. '
+                           f'Our copy has our own timings ({rec["custom"]}), so no pull request was opened.')
         return
     out = {f'{rec["slug"]}/{n}': new[n].encode('utf-8') for n, _ in changes}
     title = f'QUL update: {name}'

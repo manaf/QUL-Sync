@@ -16,7 +16,8 @@
   "reciters": {
     "118": {
       "slug": "alafasy",
-      "format": "ayah"
+      "format": "ayah",
+      "custom": "whole-surah timings measured from the audio (staging branch, live after the next app version)"
     },
     "112": {
       "slug": "husary",
@@ -24,15 +25,18 @@
     },
     "108": {
       "slug": "minshawi",
-      "format": "ayah"
+      "format": "ayah",
+      "custom": "whole-surah timings measured from the audio (staging branch, live after the next app version)"
     },
     "117": {
       "slug": "al-shatri",
-      "format": "ayah"
+      "format": "ayah",
+      "custom": "whole-surah timings measured from the audio (staging branch, live after the next app version)"
     },
     "103": {
       "slug": "al-dosari",
-      "format": "ayah"
+      "format": "ayah",
+      "custom": "whole-surah timings measured from the audio (staging branch, live after the next app version)"
     },
     "388": {
       "slug": "bandar-baleela",
@@ -40,11 +44,13 @@
     },
     "419": {
       "slug": "muhammad-jibreel",
-      "format": "surah"
+      "format": "surah",
+      "custom": "surahs 8, 9, 10 re-measured from the audio (Recitations 06c3cb6)"
     },
     "314": {
       "slug": "minshawi-children",
-      "format": "surah"
+      "format": "surah",
+      "custom": "ayah fixes da17e8e + Al-Ahzab 8239acc"
     }
   },
   "bundled_in_app": {

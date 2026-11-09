@@ -44,7 +44,7 @@ live run re-checks every change it saw during the dry run.
 
 | File | |
 |---|---|
-| `sync/config.json` | dry run switch, repo names, the 8 reciters (QUL id → app slug), resources built into the app |
+| `sync/config.json` | dry run switch, repo names, the 8 reciters (QUL id → app slug; `custom` = our copy has our own timings, so a QUL change is only reported, never a pull request), resources built into the app |
 | `sync/repos.json` | every tafseer the app offers: QUL id → repo + folder (new ones are added on merge) |
 | `sync/state.json` | last change log entry seen, rejected/empty tafseer ids, pending new tafseers, reciters already seen |
 | `sync/lang_table.json` | language name → code, native name, direction (for new languages) |
