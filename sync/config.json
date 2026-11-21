@@ -16,8 +16,8 @@
   "reciters": {
     "118": {
       "slug": "alafasy",
-      "format": "ayah",
-      "custom": "whole-surah timings measured from the audio (staging branch, live after the next app version)"
+      "format": "surah",
+      "custom": "whole-surah (gapless) timings measured from the audio — live since 2026-11-21 (Recitations 48987c8)"
     },
     "112": {
       "slug": "husary",
@@ -25,18 +25,18 @@
     },
     "108": {
       "slug": "minshawi",
-      "format": "ayah",
-      "custom": "whole-surah timings measured from the audio (staging branch, live after the next app version)"
+      "format": "surah",
+      "custom": "whole-surah (gapless) timings measured from the audio — live since 2026-11-21 (Recitations 48987c8)"
     },
     "117": {
       "slug": "al-shatri",
-      "format": "ayah",
-      "custom": "whole-surah timings measured from the audio (staging branch, live after the next app version)"
+      "format": "surah",
+      "custom": "whole-surah (gapless) timings measured from the audio — live since 2026-11-21 (Recitations 48987c8)"
     },
     "103": {
       "slug": "al-dosari",
-      "format": "ayah",
-      "custom": "whole-surah timings measured from the audio (staging branch, live after the next app version)"
+      "format": "surah",
+      "custom": "whole-surah (gapless) timings measured from the audio — live since 2026-11-21 (Recitations 48987c8)"
     },
     "388": {
       "slug": "bandar-baleela",
