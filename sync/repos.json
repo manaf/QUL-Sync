@@ -905,5 +905,19 @@
         "repo": "Tafseer-Vietnamese"
       }
     ]
+  },
+  "German": {
+    "language": "German",
+    "repos": [
+      "Tafseer-Additional"
+    ],
+    "tafsirs": [
+      {
+        "qul_id": 900001,
+        "name": "Übersetzung der Bedeutungen – Rowwad",
+        "slug": "german-rowwad",
+        "repo": "Tafseer-Additional"
+      }
+    ]
   }
 }
