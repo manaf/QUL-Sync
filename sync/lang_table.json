@@ -433,5 +433,25 @@
     "code": "zu",
     "native": "isiZulu",
     "rtl": false
+  },
+  "Croatian": {
+    "code": "hr",
+    "native": "Hrvatski",
+    "rtl": false
+  },
+  "Mooré": {
+    "code": "mos",
+    "native": "Mooré",
+    "rtl": false
+  },
+  "Bisaya": {
+    "code": "ceb",
+    "native": "Binisaya",
+    "rtl": false
+  },
+  "Maguindanao": {
+    "code": "mdh",
+    "native": "Maguindanaon",
+    "rtl": false
   }
 }

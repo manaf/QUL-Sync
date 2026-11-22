@@ -919,5 +919,325 @@
         "repo": "Tafseer-Additional"
       }
     ]
+  },
+  "Nepali": {
+    "language": "Nepali",
+    "repos": [
+      "Tafseer-Additional-2"
+    ],
+    "tafsirs": [
+      {
+        "qul_id": 900002,
+        "name": "तफ़सीर बयान मआनी अल-क़ुरआन",
+        "slug": "nepali-bayan-maani",
+        "repo": "Tafseer-Additional-2"
+      }
+    ]
+  },
+  "Dutch": {
+    "language": "Dutch",
+    "repos": [
+      "Tafseer-Additional"
+    ],
+    "tafsirs": [
+      {
+        "qul_id": 900003,
+        "name": "Vertaling van de betekenis – Centrum van Pionier Vertalers",
+        "slug": "dutch-rowwad",
+        "repo": "Tafseer-Additional"
+      }
+    ]
+  },
+  "Swedish": {
+    "language": "Swedish",
+    "repos": [
+      "Tafseer-Additional"
+    ],
+    "tafsirs": [
+      {
+        "qul_id": 900004,
+        "name": "Översättning av innebörder – Rowad översättning",
+        "slug": "swedish-rowwad",
+        "repo": "Tafseer-Additional"
+      }
+    ]
+  },
+  "Portuguese": {
+    "language": "Portuguese",
+    "repos": [
+      "Tafseer-Additional"
+    ],
+    "tafsirs": [
+      {
+        "qul_id": 900005,
+        "name": "Tradução dos significados – Helmy Nasr",
+        "slug": "portuguese-helmi-nasr",
+        "repo": "Tafseer-Additional"
+      }
+    ]
+  },
+  "Greek": {
+    "language": "Greek",
+    "repos": [
+      "Tafseer-Additional"
+    ],
+    "tafsirs": [
+      {
+        "qul_id": 900006,
+        "name": "Μετάφραση των νοημάτων – Κέντρο Μεταφράσεων Rowwad",
+        "slug": "greek-rowwad",
+        "repo": "Tafseer-Additional"
+      }
+    ]
+  },
+  "Croatian": {
+    "language": "Croatian",
+    "repos": [
+      "Tafseer-Additional"
+    ],
+    "tafsirs": [
+      {
+        "qul_id": 900007,
+        "name": "Prijevod značenja – Prevoditeljski centar Ruvvad",
+        "slug": "croatian-rowwad",
+        "repo": "Tafseer-Additional"
+      }
+    ]
+  },
+  "Lithuanian": {
+    "language": "Lithuanian",
+    "repos": [
+      "Tafseer-Additional"
+    ],
+    "tafsirs": [
+      {
+        "qul_id": 900008,
+        "name": "Reikšmių vertimas – Ruad vertimų centras",
+        "slug": "lithuanian-rowwad",
+        "repo": "Tafseer-Additional"
+      }
+    ]
+  },
+  "Ukrainian": {
+    "language": "Ukrainian",
+    "repos": [
+      "Tafseer-Additional"
+    ],
+    "tafsirs": [
+      {
+        "qul_id": 900009,
+        "name": "Переклад значень – Михайло Якубович",
+        "slug": "ukrainian-yakubovych",
+        "repo": "Tafseer-Additional"
+      }
+    ]
+  },
+  "Georgian": {
+    "language": "Georgian",
+    "repos": [
+      "Tafseer-Additional"
+    ],
+    "tafsirs": [
+      {
+        "qul_id": 900010,
+        "name": "მნიშვნელობების თარგმანი – Rowwad",
+        "slug": "georgian-rowwad",
+        "repo": "Tafseer-Additional"
+      }
+    ]
+  },
+  "Swahili": {
+    "language": "Swahili",
+    "repos": [
+      "Tafseer-Additional"
+    ],
+    "tafsirs": [
+      {
+        "qul_id": 900011,
+        "name": "Tarjama ya maana mbalimbali – Kituo cha Tarjama cha Rowwad",
+        "slug": "swahili-rowwad",
+        "repo": "Tafseer-Additional"
+      }
+    ]
+  },
+  "Hausa": {
+    "language": "Hausa",
+    "repos": [
+      "Tafseer-Additional"
+    ],
+    "tafsirs": [
+      {
+        "qul_id": 900012,
+        "name": "Fassarar Ma'anoni – Abubakar Gumi",
+        "slug": "hausa-gumi",
+        "repo": "Tafseer-Additional"
+      }
+    ]
+  },
+  "Mooré": {
+    "language": "Mooré",
+    "repos": [
+      "Tafseer-Additional"
+    ],
+    "tafsirs": [
+      {
+        "qul_id": 900013,
+        "name": "Mɑɑnɑ-rãmbã lebgre – Goɑmã lebgr sãntrã",
+        "slug": "moore-rowwad",
+        "repo": "Tafseer-Additional"
+      }
+    ]
+  },
+  "Oromo": {
+    "language": "Oromo",
+    "repos": [
+      "Tafseer-Additional"
+    ],
+    "tafsirs": [
+      {
+        "qul_id": 900014,
+        "name": "Hiikaa hiikaawwanii – Wiirtuu Ruwwaada Tarjamaa",
+        "slug": "oromo-rowwad",
+        "repo": "Tafseer-Additional"
+      }
+    ]
+  },
+  "Amharic": {
+    "language": "Amharic",
+    "repos": [
+      "Tafseer-Additional"
+    ],
+    "tafsirs": [
+      {
+        "qul_id": 900015,
+        "name": "የመልዕክት ትርጉም – በመሐመድ ሳዲቅ",
+        "slug": "amharic-sadiq",
+        "repo": "Tafseer-Additional"
+      }
+    ]
+  },
+  "Malagasy": {
+    "language": "Malagasy",
+    "repos": [
+      "Tafseer-Additional"
+    ],
+    "tafsirs": [
+      {
+        "qul_id": 900016,
+        "name": "Fandikana ny hevitra – Rowwad",
+        "slug": "malagasy-rowwad",
+        "repo": "Tafseer-Additional"
+      }
+    ]
+  },
+  "Korean": {
+    "language": "Korean",
+    "repos": [
+      "Tafseer-Additional"
+    ],
+    "tafsirs": [
+      {
+        "qul_id": 900017,
+        "name": "의미 번역 – 하미드 최",
+        "slug": "korean-hamid-choi",
+        "repo": "Tafseer-Additional"
+      }
+    ]
+  },
+  "Kazakh": {
+    "language": "Kazakh",
+    "repos": [
+      "Tafseer-Additional"
+    ],
+    "tafsirs": [
+      {
+        "qul_id": 900018,
+        "name": "Мағыналарының аудармасы – Халифа Алтай",
+        "slug": "kazakh-altai",
+        "repo": "Tafseer-Additional"
+      }
+    ]
+  },
+  "Tajik": {
+    "language": "Tajik",
+    "repos": [
+      "Tafseer-Additional"
+    ],
+    "tafsirs": [
+      {
+        "qul_id": 900019,
+        "name": "Тарҷумаи маъноҳо – Маркази тарҷумаи «Руввод»",
+        "slug": "tajik-rowwad",
+        "repo": "Tafseer-Additional"
+      },
+      {
+        "qul_id": 900020,
+        "name": "Тарҷумаи маъноҳо – Хуҷамиров Хуҷамир",
+        "slug": "tajik-khoja-mirov",
+        "repo": "Tafseer-Additional"
+      }
+    ]
+  },
+  "Gujarati": {
+    "language": "Gujarati",
+    "repos": [
+      "Tafseer-Additional"
+    ],
+    "tafsirs": [
+      {
+        "qul_id": 900021,
+        "name": "શબ્દોનું ભાષાંતર – રબ્બિલ ઉમરી",
+        "slug": "gujarati-al-omari",
+        "repo": "Tafseer-Additional"
+      }
+    ]
+  },
+  "Kannada": {
+    "language": "Kannada",
+    "repos": [
+      "Tafseer-Additional"
+    ],
+    "tafsirs": [
+      {
+        "qul_id": 900022,
+        "name": "ಅರ್ಥಗಳ ಅನುವಾದ – ಹಂಝ ಪುತ್ತೂರು",
+        "slug": "kannada-hamza-butur",
+        "repo": "Tafseer-Additional"
+      },
+      {
+        "qul_id": 900023,
+        "name": "ಅರ್ಥಗಳ ಅನುವಾದ – ಬಶೀರ್ ಮೈಸೂರಿ",
+        "slug": "kannada-bashir-misuri",
+        "repo": "Tafseer-Additional"
+      }
+    ]
+  },
+  "Bisaya": {
+    "language": "Bisaya",
+    "repos": [
+      "Tafseer-Additional"
+    ],
+    "tafsirs": [
+      {
+        "qul_id": 900024,
+        "name": "Paghubad sa mga kahulugan – Rowwad",
+        "slug": "bisaya-rowwad",
+        "repo": "Tafseer-Additional"
+      }
+    ]
+  },
+  "Maguindanao": {
+    "language": "Maguindanao",
+    "repos": [
+      "Tafseer-Additional"
+    ],
+    "tafsirs": [
+      {
+        "qul_id": 900025,
+        "name": "Translation of the meanings – Rowwad",
+        "slug": "maguindanao-rowwad",
+        "repo": "Tafseer-Additional"
+      }
+    ]
   }
 }
