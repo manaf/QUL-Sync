@@ -1571,5 +1571,103 @@
         "repo": "Tafseer-Additional-2"
       }
     ]
+  },
+  "Kabyle": {
+    "language": "Kabyle",
+    "repos": [
+      "Tafseer-Additional-3"
+    ],
+    "tafsirs": [
+      {
+        "qul_id": 900052,
+        "name": "Tasuqilt – Ramdane At Mansour",
+        "slug": "kabyle-at-mansour",
+        "repo": "Tafseer-Additional-3"
+      }
+    ]
+  },
+  "Czech": {
+    "language": "Czech",
+    "repos": [
+      "Tafseer-Additional-3"
+    ],
+    "tafsirs": [
+      {
+        "qul_id": 900053,
+        "name": "Překlad významů Koránu",
+        "slug": "czech-qul",
+        "repo": "Tafseer-Additional-3"
+      }
+    ]
+  },
+  "Finnish": {
+    "language": "Finnish",
+    "repos": [
+      "Tafseer-Additional-3"
+    ],
+    "tafsirs": [
+      {
+        "qul_id": 900054,
+        "name": "Koraanin merkitysten käännös",
+        "slug": "finnish-qul",
+        "repo": "Tafseer-Additional-3"
+      }
+    ]
+  },
+  "Maranao": {
+    "language": "Maranao",
+    "repos": [
+      "Tafseer-Additional-3"
+    ],
+    "tafsirs": [
+      {
+        "qul_id": 900055,
+        "name": "Translation of the meanings",
+        "slug": "maranao-qul",
+        "repo": "Tafseer-Additional-3"
+      }
+    ]
+  },
+  "Norwegian": {
+    "language": "Norwegian",
+    "repos": [
+      "Tafseer-Additional-3"
+    ],
+    "tafsirs": [
+      {
+        "qul_id": 900056,
+        "name": "Oversettelse av Koranens betydninger",
+        "slug": "norwegian-qul",
+        "repo": "Tafseer-Additional-3"
+      }
+    ]
+  },
+  "Polish": {
+    "language": "Polish",
+    "repos": [
+      "Tafseer-Additional-3"
+    ],
+    "tafsirs": [
+      {
+        "qul_id": 900057,
+        "name": "Przekład znaczeń – Józef Bielawski",
+        "slug": "polish-bielawski",
+        "repo": "Tafseer-Additional-3"
+      }
+    ]
+  },
+  "Tatar": {
+    "language": "Tatar",
+    "repos": [
+      "Tafseer-Additional-3"
+    ],
+    "tafsirs": [
+      {
+        "qul_id": 900058,
+        "name": "Мәгънәләр тәрҗемәсе",
+        "slug": "tatar-qul",
+        "repo": "Tafseer-Additional-3"
+      }
+    ]
   }
 }

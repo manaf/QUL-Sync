@@ -493,5 +493,15 @@
     "code": "yao",
     "native": "Chiyao",
     "rtl": false
+  },
+  "Kabyle": {
+    "code": "kab",
+    "native": "Taqbaylit",
+    "rtl": false
+  },
+  "Maranao": {
+    "code": "mrw",
+    "native": "Mëranaw",
+    "rtl": false
   }
 }
