@@ -1239,5 +1239,337 @@
         "repo": "Tafseer-Additional"
       }
     ]
+  },
+  "Afar": {
+    "language": "Afar",
+    "repos": [
+      "Tafseer-Additional-2"
+    ],
+    "tafsirs": [
+      {
+        "qul_id": 900026,
+        "name": "Addaffakni maqnisiyya – Macmuud Qabdulqhaadir Camza",
+        "slug": "afar-hamza",
+        "repo": "Tafseer-Additional-2"
+      }
+    ]
+  },
+  "Akan": {
+    "language": "Akan",
+    "repos": [
+      "Tafseer-Additional-2"
+    ],
+    "tafsirs": [
+      {
+        "qul_id": 900027,
+        "name": "Translation of the meanings – Harun Ismail",
+        "slug": "akan-harun-ismail",
+        "repo": "Tafseer-Additional-2"
+      }
+    ]
+  },
+  "N'Ko": {
+    "language": "N'Ko",
+    "repos": [
+      "Tafseer-Additional-2"
+    ],
+    "tafsirs": [
+      {
+        "qul_id": 900028,
+        "name": "ߞߘߐ ߟߎ߬ ߘߟߊߡߌ߬ߘߊ߬ߟߌ – ߝߏߘߋ߫ ߛߟߏ߬ߡߊ߯ߣߊ߫ ߞߊ߲ߕߍ߫",
+        "slug": "nko-kante",
+        "repo": "Tafseer-Additional-2"
+      },
+      {
+        "qul_id": 900029,
+        "name": "ߞߘߐ ߟߎ߬ ߘߟߊߡߌ߬ߘߊ߬ߟߌ – ߓߊ߬ߓߊ߫ ߡߊ߬ߡߊߘߌ߫",
+        "slug": "nko-baba-mamadi",
+        "repo": "Tafseer-Additional-2"
+      }
+    ]
+  },
+  "Bulgarian": {
+    "language": "Bulgarian",
+    "repos": [
+      "Tafseer-Additional-2"
+    ],
+    "tafsirs": [
+      {
+        "qul_id": 900030,
+        "name": "Превод на значенията",
+        "slug": "bulgarian-quranenc",
+        "repo": "Tafseer-Additional-2"
+      }
+    ]
+  },
+  "Catalan": {
+    "language": "Catalan",
+    "repos": [
+      "Tafseer-Additional-2"
+    ],
+    "tafsirs": [
+      {
+        "qul_id": 900031,
+        "name": "Traducció dels significats – Equip de llengua catalana",
+        "slug": "catalan-team",
+        "repo": "Tafseer-Additional-2"
+      }
+    ]
+  },
+  "Dagbani": {
+    "language": "Dagbani",
+    "repos": [
+      "Tafseer-Additional-2"
+    ],
+    "tafsirs": [
+      {
+        "qul_id": 900032,
+        "name": "Translation of the meanings – Muhammad Baba Ghutubo",
+        "slug": "dagbani-ghutubo",
+        "repo": "Tafseer-Additional-2"
+      }
+    ]
+  },
+  "Dari": {
+    "language": "Dari",
+    "repos": [
+      "Tafseer-Additional-2"
+    ],
+    "tafsirs": [
+      {
+        "qul_id": 900033,
+        "name": "ترجمه معانی – محمد انور بدخشانی",
+        "slug": "dari-badakhshani",
+        "repo": "Tafseer-Additional-2"
+      }
+    ]
+  },
+  "Kinyarwanda": {
+    "language": "Kinyarwanda",
+    "repos": [
+      "Tafseer-Additional-2"
+    ],
+    "tafsirs": [
+      {
+        "qul_id": 900034,
+        "name": "Ibisobanuro bya Qur'an – Umuryango w'abayisilamu mu Rwanda",
+        "slug": "kinyarwanda-association",
+        "repo": "Tafseer-Additional-2"
+      }
+    ]
+  },
+  "Kirundi": {
+    "language": "Kirundi",
+    "repos": [
+      "Tafseer-Additional-2"
+    ],
+    "tafsirs": [
+      {
+        "qul_id": 900035,
+        "name": "Translation of the meanings – Yusuf Gahiti",
+        "slug": "kirundi-gahiti",
+        "repo": "Tafseer-Additional-2"
+      }
+    ]
+  },
+  "Lingala": {
+    "language": "Lingala",
+    "repos": [
+      "Tafseer-Additional-2"
+    ],
+    "tafsirs": [
+      {
+        "qul_id": 900036,
+        "name": "Bobongoli maloba – Mohamed Balingongo",
+        "slug": "lingala-balangogo",
+        "repo": "Tafseer-Additional-2"
+      }
+    ]
+  },
+  "Macedonian": {
+    "language": "Macedonian",
+    "repos": [
+      "Tafseer-Additional-2"
+    ],
+    "tafsirs": [
+      {
+        "qul_id": 900037,
+        "name": "Превод на значењата – Група на учени од Македонија",
+        "slug": "macedonian-scholars",
+        "repo": "Tafseer-Additional-2"
+      }
+    ]
+  },
+  "Malay": {
+    "language": "Malay",
+    "repos": [
+      "Tafseer-Additional-2"
+    ],
+    "tafsirs": [
+      {
+        "qul_id": 900038,
+        "name": "Terjemahan makna – Abdullah Basmeih",
+        "slug": "malay-basmeih",
+        "repo": "Tafseer-Additional-2"
+      }
+    ]
+  },
+  "Punjabi": {
+    "language": "Punjabi",
+    "repos": [
+      "Tafseer-Additional-2"
+    ],
+    "tafsirs": [
+      {
+        "qul_id": 900039,
+        "name": "ਅਰਥਾਂ ਦਾ ਅਨੁਵਾਦ – ਆਰਿਫ਼ ਹਲੀਮ",
+        "slug": "punjabi-arif-haleem",
+        "repo": "Tafseer-Additional-2"
+      }
+    ]
+  },
+  "Romanian": {
+    "language": "Romanian",
+    "repos": [
+      "Tafseer-Additional-2"
+    ],
+    "tafsirs": [
+      {
+        "qul_id": 900040,
+        "name": "Traducerea sensurilor – Islam4ro",
+        "slug": "romanian-islam4ro",
+        "repo": "Tafseer-Additional-2"
+      },
+      {
+        "qul_id": 900041,
+        "name": "Traducerea sensurilor – George Grigore",
+        "slug": "romanian-grigore",
+        "repo": "Tafseer-Additional-2"
+      }
+    ]
+  },
+  "Somali": {
+    "language": "Somali",
+    "repos": [
+      "Tafseer-Additional-2"
+    ],
+    "tafsirs": [
+      {
+        "qul_id": 900042,
+        "name": "Turjumida macnaha – Cabdullaahi Xasan Yacquub",
+        "slug": "somali-yaqoub",
+        "repo": "Tafseer-Additional-2"
+      },
+      {
+        "qul_id": 900043,
+        "name": "Turjumida macnaha – Maxamuud Maxamed Cabduh",
+        "slug": "somali-abduh",
+        "repo": "Tafseer-Additional-2"
+      }
+    ]
+  },
+  "Yoruba": {
+    "language": "Yoruba",
+    "repos": [
+      "Tafseer-Additional-2"
+    ],
+    "tafsirs": [
+      {
+        "qul_id": 900044,
+        "name": "Ṣiṣe ongbifọ awọn itumọ – Abu Roheemah Mikail",
+        "slug": "yoruba-mikail",
+        "repo": "Tafseer-Additional-2"
+      }
+    ]
+  },
+  "Dhivehi": {
+    "language": "Dhivehi",
+    "repos": [
+      "Tafseer-Additional-3"
+    ],
+    "tafsirs": [
+      {
+        "qul_id": 900045,
+        "name": "Translation of the meanings – Office of the President of Maldives",
+        "slug": "dhivehi-presidents-office",
+        "repo": "Tafseer-Additional-3"
+      },
+      {
+        "qul_id": 900046,
+        "name": "Translation of the meanings – Abu Bakr Ibrahim Ali",
+        "slug": "dhivehi-abu-bakr-ibrahim",
+        "repo": "Tafseer-Additional-3"
+      }
+    ]
+  },
+  "Hebrew": {
+    "language": "Hebrew",
+    "repos": [
+      "Tafseer-Additional-2"
+    ],
+    "tafsirs": [
+      {
+        "qul_id": 900047,
+        "name": "תרגום משמעויות הקוראן – מרכז דאר אל-סלאם",
+        "slug": "hebrew-darussalam",
+        "repo": "Tafseer-Additional-2"
+      }
+    ]
+  },
+  "Luganda": {
+    "language": "Luganda",
+    "repos": [
+      "Tafseer-Additional-2"
+    ],
+    "tafsirs": [
+      {
+        "qul_id": 900048,
+        "name": "Translation of the meanings – African Development Foundation",
+        "slug": "luganda-adf",
+        "repo": "Tafseer-Additional-2"
+      }
+    ]
+  },
+  "Marathi": {
+    "language": "Marathi",
+    "repos": [
+      "Tafseer-Additional-3"
+    ],
+    "tafsirs": [
+      {
+        "qul_id": 900049,
+        "name": "अर्थांचा अनुवाद – मुहम्मद शफी अन्सारी",
+        "slug": "marathi-ansari",
+        "repo": "Tafseer-Additional-3"
+      }
+    ]
+  },
+  "Sindhi": {
+    "language": "Sindhi",
+    "repos": [
+      "Tafseer-Additional-3"
+    ],
+    "tafsirs": [
+      {
+        "qul_id": 900050,
+        "name": "معنيٰ جو ترجمو – تاج محمود امروٽي",
+        "slug": "sindhi-amroti",
+        "repo": "Tafseer-Additional-3"
+      }
+    ]
+  },
+  "Yao": {
+    "language": "Yao",
+    "repos": [
+      "Tafseer-Additional-2"
+    ],
+    "tafsirs": [
+      {
+        "qul_id": 900051,
+        "name": "Translation of the meanings – Abdul Hamid Silika",
+        "slug": "yao-silika",
+        "repo": "Tafseer-Additional-2"
+      }
+    ]
   }
 }

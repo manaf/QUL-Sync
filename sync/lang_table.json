@@ -453,5 +453,45 @@
     "code": "mdh",
     "native": "Maguindanaon",
     "rtl": false
+  },
+  "Afar": {
+    "code": "aa",
+    "native": "Qafar af",
+    "rtl": false
+  },
+  "N'Ko": {
+    "code": "nqo",
+    "native": "ߒߞߏ",
+    "rtl": true
+  },
+  "Catalan": {
+    "code": "ca",
+    "native": "Català",
+    "rtl": false
+  },
+  "Dagbani": {
+    "code": "dag",
+    "native": "Dagbanli",
+    "rtl": false
+  },
+  "Kirundi": {
+    "code": "rn",
+    "native": "Ikirundi",
+    "rtl": false
+  },
+  "Dhivehi": {
+    "code": "dv",
+    "native": "ދިވެހި",
+    "rtl": true
+  },
+  "Luganda": {
+    "code": "lg",
+    "native": "Luganda",
+    "rtl": false
+  },
+  "Yao": {
+    "code": "yao",
+    "native": "Chiyao",
+    "rtl": false
   }
 }
