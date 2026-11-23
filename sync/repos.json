@@ -1669,5 +1669,19 @@
         "repo": "Tafseer-Additional-3"
       }
     ]
+  },
+  "Chechen": {
+    "language": "Chechen",
+    "repos": [
+      "Tafseer-Additional-3"
+    ],
+    "tafsirs": [
+      {
+        "qul_id": 900059,
+        "name": "Translation of the meanings – Magomed Magomedov",
+        "slug": "chechen-magomedov",
+        "repo": "Tafseer-Additional-3"
+      }
+    ]
   }
 }
