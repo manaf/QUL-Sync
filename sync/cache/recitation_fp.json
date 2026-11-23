@@ -1,4 +1,6 @@
 {
+  "Recitations/ahmad-al-ajmi/audio.json": {"blob": "589010cf7acd4b1423bd1140087258bddeaa64ad", "fp": "8ab08645"},
+  "Recitations/ahmad-al-ajmi/segments.json": {"blob": "ac22d5c3cff0ebf4c84b9f6733a749dc9af5b554", "fp": "d60742af"},
   "Recitations/al-dosari/1.json": {"blob": "334814ae5fac4c063d279d3b766aace6b333cd00", "fp": "21784e96"},
   "Recitations/al-dosari/10.json": {"blob": "a37a3943324fc2268ef1727c79cd7852c98b8dcb", "fp": "d2534a86"},
   "Recitations/al-dosari/100.json": {"blob": "84c4a0f1657c1422839273772ddd24d520b73977", "fp": "ca078d9e"},
@@ -347,6 +349,10 @@
   "Recitations/alafasy/99.json": {"blob": "44e9d791cb5423f492ba8222c8aa13397a937fc0", "fp": "c4482d1c"},
   "Recitations/alafasy/audio.json": {"blob": "8907e892f2dadd63f070d763a0cea015c7158df8", "fp": "bbb78898"},
   "Recitations/alafasy/segments.json": {"blob": "8a942b2db68369a07a46cf1f38f9b8ce15490db8", "fp": "367b8a51"},
+  "Recitations/ali-al-huthaifi/audio.json": {"blob": "a31a6adfac10e88334bddf6094f41744e9174967", "fp": "502f70e6"},
+  "Recitations/ali-al-huthaifi/segments.json": {"blob": "78a1f7b20f1ced0e374c136ac502b3c4378d0e56", "fp": "17b62370"},
+  "Recitations/ali-jaber/audio.json": {"blob": "7dbd68a9b7c86024e8224be3803f947e1c2429f2", "fp": "af175931"},
+  "Recitations/ali-jaber/segments.json": {"blob": "aeeb1700af2ea3e40d8ab4a76ba955cbdc99240b", "fp": "3270647b"},
   "Recitations/bandar-baleela/audio.json": {"blob": "f55006906733f8dd9bf485ebf89e3686504ec435", "fp": "49064824"},
   "Recitations/bandar-baleela/segments.json": {"blob": "d276607d34325382c8358a408f6b00e012689baa", "fp": "66c5251a"},
   "Recitations/husary/1.json": {"blob": "969602ec539c22e0a73cc2980a1e88208de246db", "fp": "c15851d5"},
@@ -582,5 +588,7 @@
   "Recitations/minshawi/audio.json": {"blob": "3886e23d59cf34ec88b155e5775ca83c7498c8d2", "fp": "8cef68ec"},
   "Recitations/minshawi/segments.json": {"blob": "da81c0a7d7c8bb06b9b995011db9b11a48afc998", "fp": "c4daeb13"},
   "Recitations/muhammad-jibreel/audio.json": {"blob": "c067f25f0a17c8d6eff5d010f06fb750aa56bcbc", "fp": "7d0e1bf7"},
-  "Recitations/muhammad-jibreel/segments.json": {"blob": "097564636b954c2c95916bbba41a6513f961e710", "fp": "8a9f4361"}
+  "Recitations/muhammad-jibreel/segments.json": {"blob": "097564636b954c2c95916bbba41a6513f961e710", "fp": "8a9f4361"},
+  "Recitations/raad-al-kurdi/audio.json": {"blob": "71c28a8f0ff7ecec38993854d92ab7b8ae199dba", "fp": "29c58025"},
+  "Recitations/raad-al-kurdi/segments.json": {"blob": "5b12222057cd7b17f1a9f5cb2017581ea989cf6c", "fp": "a5ebd064"}
 }
