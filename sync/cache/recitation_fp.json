@@ -353,6 +353,8 @@
   "Recitations/ali-al-huthaifi/segments.json": {"blob": "78a1f7b20f1ced0e374c136ac502b3c4378d0e56", "fp": "17b62370"},
   "Recitations/ali-jaber/audio.json": {"blob": "7dbd68a9b7c86024e8224be3803f947e1c2429f2", "fp": "af175931"},
   "Recitations/ali-jaber/segments.json": {"blob": "aeeb1700af2ea3e40d8ab4a76ba955cbdc99240b", "fp": "3270647b"},
+  "Recitations/badr-al-turki/audio.json": {"blob": "ba1ca46356c435859caebc568b529d8b7514f54b", "fp": "c7bf9ce4"},
+  "Recitations/badr-al-turki/segments.json": {"blob": "3b57ea1fb88907cad81f96e77456d3a378d6748a", "fp": "13429eec"},
   "Recitations/bandar-baleela/audio.json": {"blob": "f55006906733f8dd9bf485ebf89e3686504ec435", "fp": "49064824"},
   "Recitations/bandar-baleela/segments.json": {"blob": "d276607d34325382c8358a408f6b00e012689baa", "fp": "66c5251a"},
   "Recitations/ghamdi/audio.json": {"blob": "3d664d65331185c4bb5af98ba570a3e59364d1be", "fp": "f1442f3b"},
