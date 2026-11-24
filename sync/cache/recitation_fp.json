@@ -355,6 +355,8 @@
   "Recitations/ali-jaber/segments.json": {"blob": "aeeb1700af2ea3e40d8ab4a76ba955cbdc99240b", "fp": "3270647b"},
   "Recitations/bandar-baleela/audio.json": {"blob": "f55006906733f8dd9bf485ebf89e3686504ec435", "fp": "49064824"},
   "Recitations/bandar-baleela/segments.json": {"blob": "d276607d34325382c8358a408f6b00e012689baa", "fp": "66c5251a"},
+  "Recitations/ghamdi/audio.json": {"blob": "3d664d65331185c4bb5af98ba570a3e59364d1be", "fp": "f1442f3b"},
+  "Recitations/ghamdi/segments.json": {"blob": "92260ccd00f613080d4d36edd6658e86654dd3b7", "fp": "f2e547d4"},
   "Recitations/husary/1.json": {"blob": "969602ec539c22e0a73cc2980a1e88208de246db", "fp": "c15851d5"},
   "Recitations/husary/10.json": {"blob": "cc6ec86da0250485f3bb39d9ffd2111325f1d8fc", "fp": "706cdfd2"},
   "Recitations/husary/100.json": {"blob": "69c82050e77f984cb3797ff16ecdf5245ba52548", "fp": "56bf8dc9"},
